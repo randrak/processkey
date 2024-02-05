@@ -18,8 +18,8 @@ This project shows how to automate the creation of a Docker image with a Java co
   - Uses an [assembly.xml](src/main/assembly.xml) file to copy all files to the image 
 - Mounts a directory in the container as a volume to a host directory
   - Uses the [system-maven-plugin](https://github.com/fuin/system-maven-plugin) to set the current user/group for the mount  
-- Uses [logback](https://logback.qos.ch/) for logging
-  - Creates a "logback.xml" configuration automatically if it does not exist. This allows a user to configure the log level for multiple runs of the container. 
+- Uses [logback](https://logback.qos.ch/) for logging (pending)
+  - Utilizing 'logback.xml' to automatically configure the log level for multiple container runs. 
   - Log file is created in the mounted directory of the host.
 
 ## Build
