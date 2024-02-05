@@ -41,11 +41,6 @@ public class SimpleDataProcessorTest {
         // Process the data
         processor.processData(inputStream);
 
-        // Verify the processing result
-        // Since SimpleDataProcessor's method does not return a value and might print to console,
-        // you would need to redirect System.out or verify the intended side effect.
-        
-        // Example assertion (modify according to what processData actually does):
         // assertEquals(expectedResult, actualResult);
     }
     
