@@ -64,7 +64,5 @@ processkey/server
 After running the container there should be three files in the [data](data) dircetory of the project:
 
 ```
-hello-world.log
-hello-world.txt
-logback.xml
+<date/time.properties> when you put in your client file1.properties in folder data or any other file with properties extension with key=value and expression properly configured. 
 ```
