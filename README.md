@@ -7,21 +7,14 @@ This Java application monitors a specified directory for new Java properties fil
 3. **Data Relay**: Relays the filtered key-value mappings to a designated server program for further processing or storage.
 4. **Cleanup**: Deletes the properties file from the directory after processing to maintain a clean workspace.
 
-## Getting Started
-
-(Here, you would include instructions on how to set up, configure, and run your program, including installing any necessary dependencies.)
-
-## Configuration
-
-(Explain how users can configure the directory to monitor, the regular expression for filtering keys, and details about the server program to relay data to.)
-
 ## Usage
 
-(Provide a step-by-step guide on using the application, including any command-line arguments or configuration file settings.)
+To effectively utilize this application, please follow the detailed instructions provided in each project's README file.
 
 ## Contributing
 
-(Instructions for other developers on how they can contribute to the project.)
+For contributing to this project, we welcome your innovative solutions and improvements. When submitting contributions, please ensure your code adheres to the SOLID principles for maintainability and scalability. Document your changes thoroughly and provide tests where applicable. 
+
 
 ## License
 This project is licensed under the GPL-3.0.
