@@ -24,4 +24,4 @@ This Java application monitors a specified directory for new Java properties fil
 (Instructions for other developers on how they can contribute to the project.)
 
 ## License
-This project is licensed under the GPL-3.0. See the LICENSE file for details.
+This project is licensed under the GPL-3.0.
