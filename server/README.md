@@ -16,8 +16,6 @@ This project shows how to automate the creation of a Docker image with a Java co
   - Has a plain [Dockerfile](src/main/docker/Dockerfile) to configure the image
   - Uses the [maven-dependency-plugin](https://maven.apache.org/plugins/maven-dependency-plugin/) to collect the JARs needed for the application
   - Uses an [assembly.xml](src/main/assembly.xml) file to copy all files to the image 
-- Mounts a directory in the container as a volume to a host directory
-  - Uses the [system-maven-plugin](https://github.com/fuin/system-maven-plugin) to set the current user/group for the mount  
 - Uses [logback](https://logback.qos.ch/) for logging (pending)
   - Utilizing 'logback.xml' to automatically configure the log level for multiple container runs. 
   - Log file is created in the mounted directory of the host.
